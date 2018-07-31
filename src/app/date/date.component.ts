@@ -16,7 +16,7 @@ export class DateComponent implements OnInit {
     this.message = currDate.toDateString() + ' ' + currDate.toLocaleTimeString();
     } , 1000);
    }
-
+   
   ngOnInit() {
   }
 
